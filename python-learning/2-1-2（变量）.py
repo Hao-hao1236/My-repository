@@ -1,4 +1,4 @@
-# 变量
+# 变量 --> Python 是一种动态类型语言，变量在使用前不需要声明类型，解释器会根据赋值自动推断变量类型。（但是项目开发中，推荐变量只能存储一种类型的数据）
 num = 1114.1592
 text = "Hello, Python!"
 flag = True
@@ -226,3 +226,33 @@ is_student: bool = False
 print("Age:", age)
 print("Name:", name)
 print("Is student:", is_student)
+
+print("---------------------")  # 分割线
+
+# 变量的占位符
+placeholder_var = None
+if placeholder_var is None:
+    print("Variable is a placeholder and has no value yet.")
+
+print("---------------------")  # 分割线
+
+# 变量的多行赋值
+a = b = c = 50
+print("a =", a)
+print("b =", b)
+print("c =", c)
+
+print("---------------------")  # 分割线
+
+# 更新变量的值
+counter = 0
+counter += 1
+print("Counter after increment:", counter)
+counter *= 5
+print("Counter after multiplication:", counter)
+
+print("---------------------")  # 分割线
+
+# 变量的条件赋值
+status = "Adult" if age >= 18 else "Minor"
+print("Status based on age:", status)
