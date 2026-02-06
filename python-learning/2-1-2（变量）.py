@@ -256,3 +256,10 @@ print("---------------------")  # 分割线
 # 变量的条件赋值
 status = "Adult" if age >= 18 else "Minor"
 print("Status based on age:", status)
+
+# 案例：课程基础播放量为 20.7 万，每次推广增加 50 万，计算推广 2 次后的总播放量
+base = 20.7  # 基础播放量
+incr = 50  # 每次推广增加的播放量
+# 注：以上两行可简写为：base, incr = 20.7, 50
+print("第一次推广的播放量为：", base + incr, "万")
+print("第二次推广的播放量为：", base + incr + incr, "万")
